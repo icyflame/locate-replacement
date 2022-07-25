@@ -1,0 +1,2 @@
+INDEX_FILE="$HOME/.locate-simple-replacement-index"
+TEMP_INDEX_FILE="/tmp/temp-index-file"
