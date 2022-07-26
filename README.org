@@ -1,0 +1,25 @@
+#+TITLE: Locate Replacement
+#+OPTIONS: author:nil toc:nil ^:nil
+
+This program is a replacement for GNU =locate=.
+
+* Simple
+
+This is the simple replacement.
+
+** Index Creation
+
+It uses =fd= (=find= alternative written in Rust) and =ripgrep= (or =rg=) (=grep= alternative
+written in Rust).
+
+** Search Interface
+
+Search interface through Emacs is supported. ([[https://github.com/icyflame/.emacs.d/blob/f60c34321fee843bf75d649b5a6a205c30e8cfdb/init.el#L1095-L1120][Elisp code for search interface]].)
+
+** Performance
+
+*Current performance:* OK
+
+- Indexing: 22 seconds
+- Files count: 2.40 million
+- Search performance: OK (No noticeable lag)
