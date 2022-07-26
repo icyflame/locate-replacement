@@ -1,6 +1,8 @@
 #!/bin/bash
 
-source vars
+DIRNAME=$(dirname $0)
+
+source $DIRNAME/vars
 
 if [ ! -x $(which fd) ];
 then
